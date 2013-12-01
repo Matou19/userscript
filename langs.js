@@ -8,6 +8,8 @@ function loadLang() {
 		myhpLang="es"; // Spanish
 	}else if(prefLang=="pt"){
 		myhpLang="pt"; // Portuguese
+	}else if(prefLang=="fr"){
+		myhpLang="fr"; // Français
 	}else{
 		myhpLang=navigator.language.match(/[a-z]+/); // Auto detection.
 	}
@@ -129,6 +131,69 @@ function loadLang() {
 	        "UpdaterNoText": "Nenhuma atualização encontrada, você está usando a versão mais recente do MyHabboPlus.",
 	        "UpdaterErrorTitle": "Houve um erro ao tentar buscar novas atualizações",
 	        "UpdaterErrorText": "Não foi possível conectar com o canal de atualizações."
+      	}
+	}else{
+		// French
+		
+	}else if(myhpLang=="fr") {
+		text= {
+			text= {
+                        "Close": "Fermer",
+                        "Error": "Erreur",
+                        "NoConnect": "Connexion erreur",
+                        "Loading": "Chargement...",
+                        "Hour": "Heure",
+                        "Hours": "Heures",
+                        "Day": "Jour",
+                        "Days": "Jours",
+                        "Week": "Semaine",
+                        "Weeks": "Semaine",
+                        "Never": "Jamais",
+ 
+                        "LightboxTitle": "Attention!",
+                        "Preferences": "Préférence",
+                        "PreferencesGeneral": "Général",
+                        "PreferencesVersion": "Vous êtes entrain d'utiliser cette version",
+                        "PreferencesUpdate": "Recherche de mises à jour",
+                        "PreferencesUpdateFreq": "Fréquence de mises à jour",
+                        "PreferencesUpdateChannel": "Mises à jour de la chaîne",
+                        "PreferencesUpdateChannelRelease": "Dernières mises à jour de la chaîne",
+                        "PreferencesUpdateChannelBeta": "Beta",
+                        "PreferencesUpdateChannelCustom": "Personnalisé (pour les experts)",
+                        "Language": "Langage",
+                        "LanguageAuto": "Auto-détection",
+                        "PreferencesModules": "Modules",
+                        "PreferencesTheme": "Thème alternatif",
+                        "PreferencesHomeInfo": "Habbo Home Infos",
+                        "PreferencesHabboSearch": "Rechercher un habbo",
+                        "PreferencesNewArticles": "Alertes de nouveaux articles",
+                        "PreferencesTweet": "Voir les tweets des fansites",
+ 
+                        "HomeInfoDetails": "Informations sur l'utilisateur",
+                        "HomeInfoNoExist": "Ce Habbo n'existe pas.",
+                        "HomeInfoAddFriend": "Ajouter en ami",
+                        "HomeInfoAddError": "Une erreur est survenue lors de la demande d'ajout en amis",
+                        "HomeInfoDate": "Habbo crée le:",
+                        "HomeInfoStatus": "Mission:",
+                        "HomeInfoLastVisit": "Dernière connexion:",
+                        "HomeInfoFriends": "Amis",
+                        "HomeInfoFriendSearch": "Recherche...",
+                        "HomeInfoBadges": "Badges",
+ 
+                        "HabboSearchPlaceholder": "Recherche de Habbos…",
+ 
+                        "NewArticles": "Alertes de nouveaux articles",
+                        "NewArticlesSearching": "Recherche d'articles en cours...",
+                        "NewArticlesTitle": "Nouvel article!",
+                        "NewArticlesDetected": "Nouvel article trouvé. Cliquez ici.",
+ 
+                        "UpdaterNewTitle": "Nouvelle mise à jour",
+                        "UpdaterNewText": "Nouvelle mise à jour trouvée:",
+                        "UpdaterUpdate": "Mettre à jour maintenant",
+                        "UpdaterNoTitle": "Aucune nouvelle mise à jour disponible",
+                        "UpdaterNoText": "Aucune mise à jour à effectuer. Vous utilisez la dernière version.",
+                        "UpdaterErrorTitle": "Erreur de recherche de nouvelles mises à jour",
+                        "UpdaterErrorText": "Aucune connexion possible au serveur de mise à jour"
       	}
 	}else{
 		// English
